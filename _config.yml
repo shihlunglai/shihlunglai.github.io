@@ -15,6 +15,10 @@ author:
   name: "Shihlung Lai"
   avatar: "/assets/images/218769.jpg"
   bio: "Graduate student at National Taiwan University of Science and Technology (NTUST). Research interests include AI, Machine Learning, Federated Learning, and Non-IID Data Augmentation."
+collections:
+  pages:
+    output: true
+    permalink: /pages/
 
 sass:
   style: compressed
