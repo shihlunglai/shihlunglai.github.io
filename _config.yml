@@ -26,4 +26,22 @@ sass:
     
 markdown: kramdown
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+    - assets/css
 
