@@ -5,8 +5,6 @@ permalink: /about/
 author_profile: true
 ---
 
-## About
-
 **Shih-Lung Lai (賴昰龍)**  
 Graduate Student, Machine Learning Laboratory  
 Department of Computer Science and Information Engineering  
