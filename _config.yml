@@ -3,7 +3,7 @@ email: janchen0716@gmail.com
 description: "Personal academic site of Shihlung Lai"
 baseurl: ""
 url: "https://shihlunglai.github.io"
-
+theme: null
 remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
@@ -18,3 +18,7 @@ author:
   bio: "Graduate student at National Taiwan University of Science and Technology (NTUST). Research interests include AI, Machine Learning, Federated Learning, and Non-IID Data Augmentation."
 
 markdown: kramdown
+sass:
+  style: compressed
+  load_paths:
+    - _assets
