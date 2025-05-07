@@ -1,8 +1,9 @@
 title: "Shihlung Lai | Academic Homepage"
 email: janchen0716@gmail.com
 description: "Personal academic site of Shihlung Lai"
-baseurl: ""
+baseurl: ""  # 如果你是 user page (repo 叫 shihlunglai.github.io)，這邊就保持空白
 url: "https://shihlunglai.github.io"
+
 remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
@@ -15,16 +16,11 @@ author:
   name: "Shihlung Lai"
   avatar: "/assets/images/218769.jpg"
   bio: "Graduate student at National Taiwan University of Science and Technology (NTUST). Research interests include AI, Machine Learning, Federated Learning, and Non-IID Data Augmentation."
+
 collections:
   pages:
     output: true
-    permalink: /_pages/
-
-sass:
-  style: compressed
-
-    
-markdown: kramdown
+    permalink: /:path/  # 改這個，才會正確顯示 /about/ 而不是 /_pages/about/
 
 defaults:
   -
@@ -39,9 +35,8 @@ defaults:
       type: "pages"
     values:
       layout: single
+
+markdown: kramdown
+
 sass:
   style: compressed
-  load_paths:
-    - _sass
-    - assets/css
-
