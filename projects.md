@@ -5,22 +5,13 @@ permalink: /projects/
 author_profile: true
 ---
 
-## Current Projects
+### Enhancing LLMs' Comprehension of Chinese Humor via Instruction-Tuned Fine-Tuning  
+Developing a fine-tuning framework based on GPT-4 to improve large language models' (LLMs) capability to understand and interpret Chinese humor. This project explores
 
-### Federated Diffusion for Non-IID Data Augmentation
-Exploring the integration of diffusion models within federated learning to generate class-conditional data, improving model generalization under non-IID distributions. This includes:
-- Conditional data generation using reverse diffusion
-- Personalized model fine-tuning
-- DP noise injection during diffusion stages
+### Sentiment Classification via Domain-Adaptive BERT Fine-Tuning  
+Applying transformer-based models to supervised sentiment classification tasks using transfer learning. Fine-tuning pre-trained BERT on sentiment-labeled corpora  
 
-### Differential Privacy in Generative Models
-Investigating how differentially private noise affects the fidelity of generated data and its downstream usability in federated settings. Key focuses include:
-- Comparing DP noise on forward vs. reverse diffusion
-- Measuring accuracy, FID, and Inception Score impact
+### Federated Diffusion with Conditional Data Augmentation under Non-IID Settings  
+Designing a hybrid architecture combining conditional diffusion models with federated learning to mitigate statistical heterogeneity (non-IID). Key contributions include:
 
 ---
-
-## Past Projects
-
-### Blockchain-Based Voting System
-Designed and implemented a smart contract-based voting platform ensuring transparency, traceability, and tamper-proofing, using Solidity and Ethereum testnets.
