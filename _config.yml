@@ -3,7 +3,6 @@ email: janchen0716@gmail.com
 description: "Personal academic site of Shihlung Lai"
 baseurl: ""
 url: "https://shihlunglai.github.io"
-theme: null
 remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
