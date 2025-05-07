@@ -1,0 +1,20 @@
+title: "Shihlung Lai | Academic Homepage"
+email: janchen0716@gmail.com
+description: "Personal academic site of Shihlung Lai"
+baseurl: ""
+url: "https://shihlunglai.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+author:
+  name: "Shihlung Lai"
+  avatar: "/assets/images/218769.jpg"
+  bio: "Graduate student at National Taiwan University of Science and Technology (NTUST). Research interests include AI, Machine Learning, Federated Learning, and Non-IID Data Augmentation."
+
+markdown: kramdown
