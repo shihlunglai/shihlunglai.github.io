@@ -18,7 +18,7 @@ author:
 collections:
   pages:
     output: true
-    permalink: /pages/
+    permalink: /_pages/
 
 sass:
   style: compressed
