@@ -1,5 +1,5 @@
 ---
 ---
 
-@import "minimal-mistakes"; // 匯入原始主題樣式
-@import "custom";            // 匯入你的自定義樣式
+@import "minimal-mistakes"; // 主題核心
+@import "../../_assets/custom"; // 路徑依照你的專案結構調整
