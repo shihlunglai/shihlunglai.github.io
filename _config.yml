@@ -17,9 +17,11 @@ author:
   avatar: "/assets/images/218769.jpg"
   bio: "Graduate student at National Taiwan University of Science and Technology (NTUST). Research interests include AI, Machine Learning, Federated Learning, and Non-IID Data Augmentation."
 
-markdown: kramdown
-
 sass:
   style: compressed
   load_paths:
     - _assets
+    
+markdown: kramdown
+
+
