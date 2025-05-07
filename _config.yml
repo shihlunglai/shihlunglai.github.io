@@ -19,8 +19,7 @@ author:
 
 sass:
   style: compressed
-  load_paths:
-    - _assets
+
     
 markdown: kramdown
 
